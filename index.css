@@ -1,0 +1,30 @@
+.container-position {
+    width: 200px;
+    height: 200px;
+    /* margin-left: 50%;
+    margin-top: 100px; */
+}
+
+.container-position:first-child {
+    background-color: red;
+    position: absolute;
+    top: 60px;
+    left: 700px;
+    z-index: 2;
+}
+
+.container-position:nth-child(2) {
+    background-color: blue;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    z-index: 3;
+}
+
+.container-position:nth-child(3) {
+    background-color: green;
+    position: absolute;
+    top: 350px;
+    left: 900px;
+    z-index: 1;
+}
